@@ -1,15 +1,5 @@
-{% load static %}
-<!DOCTYPE html>
-<html>
-<head>
-	<title>index</title>
-	<link rel="stylesheet" href="{% static 'CSS/main.css' %}">
-</head>
-<body>
-	
-	<h1>Primera pagina en django</h1>
-</body>
+{% extends 'base.html' %}
 
-
-	<a href="{% url 'pag2' %}">ir a </a>
-</html>
+{% block content %}
+ <h1>HOME</h1>
+{% endblock %}

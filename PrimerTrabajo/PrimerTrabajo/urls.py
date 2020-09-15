@@ -21,7 +21,7 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-
+ 
     path('', views.Home , name='inicio'),
     path('pagina2', views.Pag2, name='pag2')
 ]
