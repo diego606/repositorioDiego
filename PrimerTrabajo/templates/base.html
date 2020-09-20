@@ -12,8 +12,38 @@
 	<title>index</title>
 </head>
 <body>
+	<div class="container">
+		<nav class= "navbar navbar-expand-lg navbar-dark bg-dark">
+			<a href="#">
+				<img src="{% static 'IMG/logoEdit.png' %}">
+			</a>
+			<button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a href="#" class="nav-link">Publica tu emprendimiento</a>
+					</li>
+					<li class="nav-item active">
+						<a href="#" class="nav-link">Que es Join Up</a>
+					</li>
+					<li class="nav-item active">
+						<a href="#" class="nav-link">Consultas</a>
+					</li>
+				</ul>
+			</div>
+			<a href="#">
+				<img src="{% static 'IMG/login.png' %}">
+			</a>
+
+		</nav>
+		
+
+
+	</div>
 	<!--barra de navegacion-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!--<nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#"><img src="{% static 'IMG/logoEdit.png' %}"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -52,7 +82,7 @@
 <nav class=".container">
 	<img src="{% static 'IMG/emprendimientoEdit.png' %}">
 	<img src="{% static 'IMG/frase.png' %}">
-</nav>
+</nav>-->
 
 {% block content %}
 	
